@@ -16,8 +16,9 @@ import java.util.Date;
 public class ProjectionFilm {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private Long id;
+
+    @Temporal(TemporalType.TIMESTAMP)
     private Date date;
     private double prix;
 
