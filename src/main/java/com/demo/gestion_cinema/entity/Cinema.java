@@ -15,6 +15,7 @@ public class Cinema {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long code;
+    @Column(length = 75)
     private String name;
     private double latitude;
     private double longitude;
