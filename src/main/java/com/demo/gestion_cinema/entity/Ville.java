@@ -18,6 +18,7 @@ public class Ville {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
+    @Column(length = 75)
     private String name;
     private double longitude;
     private double laltitude;

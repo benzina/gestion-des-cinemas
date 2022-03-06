@@ -17,6 +17,7 @@ public class Salle {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long numero;
+    @Column(length = 75)
     private String name;
 
     @ManyToOne
