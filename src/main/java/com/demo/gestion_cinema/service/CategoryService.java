@@ -11,7 +11,7 @@ public interface CategoryService {
     Category findByName(String name);
     Category findById(Long id);
     Category save(Category category);
-    public Category updateCategory(Category category,long id);
+    Category updateCategory(Category category,long id);
     void deleteById(Long id);
 
 }

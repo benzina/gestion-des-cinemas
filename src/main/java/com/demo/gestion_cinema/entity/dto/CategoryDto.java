@@ -1,6 +1,5 @@
 package com.demo.gestion_cinema.entity.dto;
 
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

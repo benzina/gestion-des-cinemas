@@ -19,6 +19,7 @@ public class Salle {
     private Long numero;
     @Column(length = 75)
     private String name;
+    private int nbrePlace;
 
     @ManyToOne
     private Cinema cinema;

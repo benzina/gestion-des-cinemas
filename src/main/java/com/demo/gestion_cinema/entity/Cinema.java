@@ -19,6 +19,7 @@ public class Cinema {
     private String name;
     private double latitude;
     private double longitude;
+    private int nbreSalle;
 
     @ManyToOne
     private Ville ville;
