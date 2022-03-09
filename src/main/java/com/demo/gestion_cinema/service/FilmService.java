@@ -10,7 +10,9 @@ public interface FilmService {
     List<Film> findAll();
     Film findByTitle(String title);
     Film findById(Long id);
-    void save(Film film);
+    Film save(Film film);
+    Film updateFilm(Film film,Long id);
     void deleteById(Long id);
+
 
 }

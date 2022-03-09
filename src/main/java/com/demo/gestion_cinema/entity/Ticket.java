@@ -16,7 +16,7 @@ public class Ticket {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
-    @Column(unique = true)
+    //@Column(unique = true)
     private int codePaiment;
     @Column(length = 75)
     private String clientName;
